@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample Resume</title>
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .layout {
+        align-items: center;
+        margin-left: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        position: relative;
+        margin-top: 20px;
+        margin-left: 20px;
+        border: 1px solid lightgray; /* Circular border */
+        background-color: lightgray; /* Light gray background */
+        width: 60px; /* Adjust width for circular shape */
+        height: 60px; /* Adjust height for circular shape */
+        border-radius: 50%; /* Make it circular */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      "
+      onclick="goBack()"
+    >
+      <!-- SVG back button -->
+      <svg
+        id="backButton"
+        width="30"
+        height="30"
+        viewBox="0 0 30 30"
+        xmlns="http://www.w3.org/2000/svg"
+        style="cursor: pointer"
+      >
+        <path d="M21 4L5 15l16 11V4z" fill="#000" />
+      </svg>
+    </div>
+
+    <script>
+      // JavaScript code will be added here
+      function goBack() {
+        window.location.href = "index.html";
+      }
+    </script>
+
+    <div style="text-align: center">
+      <img
+        src="../asset/tonton.jpg"
+        alt="Anonymous"
+        style="float: center"
+        width="200"
+        height="166"
+      />
+    </div>
+    <h1 style="color: blue; text-align: center">Anthony Bert S. Sosas</h1>
+    <p style="color: black; text-align: center">
+      <b
+        ><img src="../asset/email.jpg" alt="E-mail" width="25" height="25"
+      /></b>
+      anthonybert.sosas@depedgov.ph <br /><b
+        ><img
+          src="../asset/phone.jpg"
+          alt="Phone Number"
+          width="25"
+          height="25"
+      /></b>
+      09154619171 <br /><b
+        ><img src="../asset/fb.jpg" alt="Facebook" width="25" height="25"
+      /></b>
+      Anthony Sosas
+    </p>
+    <p style="text-align: center">
+      I am an Educator with at least 7 years of experience in teaching TLE
+      subjects in public schools.
+    </p>
+
+    <hr />
+    <div class="layout">
+      <h3><p>Personal Data</p></h3>
+      <p>Date of Birth : August 16, 1991</p>
+      <p>Place of Birth : Argao, Cebu</p>
+      <p>Civil Status : Married</p>
+      <p>Height : 5' 4"</p>
+      <p>Weight : 70 Kg</p>
+      <p>Religion : Roman Catholic</p>
+      <p>Nationality : Filipino</p>
+    </div>
+    <hr />
+    <div class="layout">
+      <h3><p>Educational Background</p></h3>
+      <p>
+        College <br />Cebu Technological University - Argao Campus <br />2012
+      </p>
+      <p>Secondary <br />Bulasa National High School <br />2008</p>
+      <p>Elementary <br />Binlod Elementary School <br />2004</p>
+    </div>
+    <hr />
+    <div class="layout">
+      <h3><p>Experience</p></h3>
+      <p>
+        TEACHER I <br />2016 - Present <br />Deped Cebu Province <br />Argao
+        National High School
+      </p>
+      <p>
+        Part-Time Instructor <br />2012- 2015 <br />Cebu Technological
+        University - Argao Campus
+      </p>
+    </div>
+    <hr />
+    <div class="layout">
+      <h4><p>Skills</p></h4>
+      <p>
+        Teaching <br />
+        Technician <br />
+        Badminton Player
+      </p>
+    </div>
+    <hr />
+  </body>
+</html>

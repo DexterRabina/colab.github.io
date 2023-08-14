@@ -1,0 +1,73 @@
+<html><!DOCTYPE html>
+<html>
+<head>
+<title>Sample Resume</title>
+<style>
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+</style>
+</head>
+<body>
+  <div
+      style="
+        position: relative;
+        margin-top: 20px;
+        margin-left: 20px;
+        border: 1px solid lightgray; /* Circular border */
+        background-color: lightgray; /* Light gray background */
+        width: 60px; /* Adjust width for circular shape */
+        height: 60px; /* Adjust height for circular shape */
+        border-radius: 50%; /* Make it circular */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      "
+      onclick="goBack()"
+    >
+      <!-- SVG back button -->
+      <svg
+        id="backButton"
+        width="30"
+        height="30"
+        viewBox="0 0 30 30"
+        xmlns="http://www.w3.org/2000/svg"
+        style="cursor: pointer"
+      >
+        <path d="M21 4L5 15l16 11V4z" fill="#000" />
+      </svg>
+    </div>
+
+    <script>
+      // JavaScript code will be added here
+      function goBack() {
+        window.location.href = "index.html";
+      }
+    </script>
+
+  <h1>Resume</h1>
+  <img src="../asset/juna.jpg" width="300" height="300" alt="juna" />
+  <p>Junalyn A. Merka</p>
+  <p>Mahayahay Street, Poblacion, Argao, Cebu</p>
+  <p>Cell # 09667412635</p>
+  <hr>
+  <br>
+  <p class="head">Objectives</p>
+  <p>To make use of my skills to achieve goals of a company that focuses on customesatisfaction and customer experience.</p>
+
+  <hr>
+  <h3><p>Personal Data</p></h3>
+    <p>Date of Birth           :          December 31, 1992</p>
+    <p>Place of Birth          :          Argao, Cebu</p>
+    <p>Civil Status            :          Married</p>
+    <p>Religion                :          Roman Catholic</p>
+    <p>Nationality             :          Filipino
+   <h3><p>Educational Background</p></h3>
+    <p>Elementary               <br>Argao Central Elementary School</p> <br>2005</p>
+    <p>Secondary                <br>Argao National High School</p> <br>2009</p>
+    <p>College                  <br>Cebu Technnological University-Argao Campus <br>2014</p><hr>
+   <h3><p>Experience </p></h3>
+    <p>Warehouse Aide    <br>2014-2016      <br> Primary Structures Corporation Building,33V Rama Ave, Cebu City</p> 
+    <p>IT Staff          <br>2016-2017      <br>Vertex Maritime Review Center Cebu Branch- Mandaue City</p>
+</body>
+</html>
